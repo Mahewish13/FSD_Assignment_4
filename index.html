@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Repositories</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <script src="main.js"></script>
+
+<h2>GitHub Repository List</h2>
+
+<label>Enter GitHub Username:</label>
+<input type="text" id="username">
+<button onclick="getRepos()">Get Repositories</button>
+
+<br><br>
+
+<table id="repoTable">
+    <thead>
+        <tr>
+            <th>Repository Name</th>
+            <th>Description</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+<h2>University List by Country</h2>
+
+<label>Enter Country Name:</label>
+<input type="text" id="country">
+<button onclick="getUniversities()">Get Universities</button>
+
+<br><br>
+
+<table id="uniTable">
+    <thead>
+        <tr>
+            <th>University Name</th>
+            <th>Website</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+</body>
+</html>
