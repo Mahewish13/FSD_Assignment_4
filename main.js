@@ -29,7 +29,7 @@ function getRepos() {
 function getUniversities() {
     var country = document.getElementById("country").value;
     var xhr = new XMLHttpRequest();
-    var url = "http://universities.hipolabs.com/search?country=" + country;
+    var url = "https://universities.hipolabs.com/search?country=" + country;
 
     xhr.open("GET", url, true);
     xhr.onload = function () {
@@ -52,3 +52,4 @@ function getUniversities() {
     };
     xhr.send();
 }
+
